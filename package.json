@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frank-mendez/typescript.git"
+  },
+  "author": "Frank R Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frank-mendez/typescript/issues"
+  },
+  "homepage": "https://github.com/frank-mendez/typescript#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

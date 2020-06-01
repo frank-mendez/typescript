@@ -1,9 +1,13 @@
-function add(n1: number, n2: number) {
-  return n1 + n2;
+const person = {
+  name: 'Frank',
+  age: 30,
+  hobbies: ['computer games', 'poker'],
+};
+
+let favoriteActivites: string[];
+favoriteActivites = ['Dota'];
+
+console.log(person.name);
+for (const hobby of person.hobbies) {
+  console.log(hobby.toUpperCase());
 }
-
-const numberOne = 5;
-const numberTwo = 2.8;
-
-const result = add(numberOne, numberTwo);
-console.log(result);

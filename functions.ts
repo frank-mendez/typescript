@@ -2,11 +2,11 @@ function add(n1: number, n2: number) {
   return n1 + n2;
 }
 
-function printResult(num: number) {
+function printResult1(num: number) {
   console.log('result: ', num);
 }
 
-printResult(add(5, 2));
+printResult1(add(5, 2));
 
 function addHandler(n1: number, n2: number, cb: (num: number) => void) {
   const result = n1 + n2;

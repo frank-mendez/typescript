@@ -1,3 +1,5 @@
-const userName1 = 'Max';
+const button = document.querySelector('button')!;
 
-console.log(userName1);
+button.addEventListener('click', () => {
+  console.log('clicked');
+});
